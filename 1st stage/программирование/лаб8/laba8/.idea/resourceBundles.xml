@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui.properties" />
+    <file url="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui_mk_MK.properties" />
+    <file url="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui_pi_PL.properties" />
+    <file url="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui_ru_RU.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui.properties" />
+      <file value="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui_es_PR.properties" />
+      <file value="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui_mk_MK.properties" />
+      <file value="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui_pi_PL.properties" />
+      <file value="file://$PROJECT_DIR$/client/src/main/resources/bundles/gui_ru_RU.properties" />
+      <base-name>gui</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>
