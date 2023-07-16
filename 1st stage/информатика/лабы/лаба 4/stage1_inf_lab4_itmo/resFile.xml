@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schedule>
+  <doublet1>
+    <time>
+      <start>
+        <hour>XI</hour>
+        <minutes>XL</minutes>
+      </start>
+      <end>
+        <hour>XIII</hour>
+        <minutes>X</minutes>
+      </end>
+    </time>
+    <weeks>IIIVVIIIXXIXIIIXVXVII</weeks>
+  </doublet1>
+  <place>
+    <address>Кронверкский пр., д.49, лит.А
+</address>
+    <room>2306/1 (БЫВШ. 304) АУД.
+</room>
+    <name>ИНФОРМАТИКА(ЛАБ)
+</name>
+    <week>чётная неделя
+</week>
+    <teacher>Белозубов \Александр\ Владимирович
+</teacher>
+    <kind>Очно-дистанционный
+</kind>
+  </place>
+  <doublet2>
+    <time>
+      <start>
+        <hour>XI</hour>
+        <minutes>XL</minutes>
+      </start>
+      <end>
+        <hour>XIII</hour>
+        <minutes>X</minutes>
+      </end>
+    </time>
+    <weeks>IIIVVIIIXXIXIIIXVXVII</weeks>
+    <place>
+      <address>Кронверкский пр., д.49, лит.А
+</address>
+      <room>2306/1 (БЫВШ. 304) АУД.
+</room>
+    </place>
+    <name>ОСНОВЫ ПРОФЕССИОНАЛЬНОЙ ДЕЯТЕЛЬНОСТИ(ЛАБ)
+</name>
+    <week>нечётная неделя
+</week>
+    <teacher>Ткешелашвили Нино Мерабиевна
+</teacher>
+    <kind>Очно-дистанционный
+</kind>
+  </doublet2>
+  <doublet3>
+    <time>
+      <start>
+        <hour>XIII</hour>
+        <minutes>XXX</minutes>
+      </start>
+      <end>
+        <hour>XV</hour>
+        <minutes>I</minutes>
+      </end>
+    </time>
+    <weeks>IIIVVIVIIIXXIIXIVXVI</weeks>
+    <place>
+      <address>Кронверкский пр., д.49, лит.А
+</address>
+      <room>2306/1 (БЫВШ. 304) АУД.
+</room>
+    </place>
+    <name>ИНФОРМАТИКА(ЛАБ)
+</name>
+    <week>чётная неделя
+</week>
+    <teacher>Белозубов Александр Владимирович
+</teacher>
+    <form>Очно-дистанционный
+</form>
+  </doublet3>
+  <doublet4>
+    <time>
+      <start>
+        <hour>XIII</hour>
+        <minutes>XXX</minutes>
+      </start>
+      <end>
+        <hour>XV</hour>
+        <minutes>I</minutes>
+      </end>
+    </time>
+    <weeks>IIIVVIIIXXIXIIIXVXVII</weeks>
+    <place>
+      <address>Кронверкский пр., д.49, лит.А
+</address>
+      <room>2306/1 (БЫВШ. 304) АУД.
+</room>
+    </place>
+    <name>ОСНОВЫ ПРОФЕССИОНАЛЬНОЙ ДЕЯТЕЛЬНОСТИ(ЛАБ)
+</name>
+    <week>нечётная неделя
+</week>
+    <teacher>Ткешелашвили Нино Мерабиевна
+</teacher>
+    <kind>Очно-дистанционный</kind>
+  </doublet4>
+</schedule>
