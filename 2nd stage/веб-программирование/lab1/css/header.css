@@ -1,0 +1,60 @@
+* {
+    font-family: "Goudy Bookletter 1911", sans-serif;
+}
+
+.header {
+    height: 85px;
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 1px goldenrod;
+}
+
+.header > a, img {
+    width: 70px;
+    margin-top: 3px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+img:hover {
+    transition: 0.1s;
+    border-radius: 40%;
+    border: 2px solid goldenrod;
+    transform: scale(0.9);
+    box-shadow: 0 0 20px 2px darkgoldenrod;
+}
+
+.header > div {
+    display: flex;
+    align-items: center;
+    margin: 20px 20px auto;
+    flex-direction: column;
+}
+
+.header span, a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: right;
+}
+
+a:hover {
+    color: yellow;
+    font-size: 22px;
+    transition: 0.1s;
+    text-shadow: 0 0 20px yellow;
+}
+
+.game-title {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.game-title span {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
