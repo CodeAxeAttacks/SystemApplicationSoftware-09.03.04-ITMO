@@ -1,0 +1,10 @@
+.logout-link {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logout-link:hover img {
+  transform: scale(1.1);
+  filter: brightness(1.5);
+}

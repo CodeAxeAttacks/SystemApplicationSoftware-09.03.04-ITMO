@@ -1,0 +1,56 @@
+.main-header {
+  display: flex;
+  padding: 1em;
+  font-size: 15px;
+  box-shadow: 0 0 15px 1px goldenrod;
+}
+
+.main-header__content {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.info {
+  margin-right: auto;
+}
+
+.authors {
+  text-align: right;
+}
+
+/* Общие стили для текста */
+.main-header__content li {
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* Эффекты при наведении */
+.main-header__content li:hover {
+  color: goldenrod;
+}
+
+.main-header__content li:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: goldenrod;
+  z-index: -1;
+  transform: scale(1.1);
+}
+
+.main-header__content li:hover::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: goldenrod;
+  border-radius: inherit;
+  z-index: -2;
+}

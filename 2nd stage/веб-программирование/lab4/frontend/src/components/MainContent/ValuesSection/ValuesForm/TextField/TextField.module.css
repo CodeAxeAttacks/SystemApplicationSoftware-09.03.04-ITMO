@@ -1,0 +1,6 @@
+.text-field {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #b29039;
+  border: 1px solid black;
+}

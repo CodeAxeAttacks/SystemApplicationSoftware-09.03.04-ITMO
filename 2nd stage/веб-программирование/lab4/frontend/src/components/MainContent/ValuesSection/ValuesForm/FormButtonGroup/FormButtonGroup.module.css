@@ -1,0 +1,13 @@
+.button-list {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 0;
+  padding: 5px;
+  list-style-type: none;
+}
+
+.button-list__item:nth-child(5) {
+  grid-column: span 4;
+}
