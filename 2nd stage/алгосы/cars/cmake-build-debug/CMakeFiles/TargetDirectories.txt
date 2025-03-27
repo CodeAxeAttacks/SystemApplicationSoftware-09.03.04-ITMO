@@ -1,0 +1,3 @@
+/Users/daniilbatmanov/CLionProjects/cars/cmake-build-debug/CMakeFiles/cars.dir
+/Users/daniilbatmanov/CLionProjects/cars/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/daniilbatmanov/CLionProjects/cars/cmake-build-debug/CMakeFiles/rebuild_cache.dir
