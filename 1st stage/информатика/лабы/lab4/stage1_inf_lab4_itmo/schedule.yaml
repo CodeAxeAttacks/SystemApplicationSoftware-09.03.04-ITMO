@@ -1,0 +1,89 @@
+schedule:
+  doublet1:
+    time:
+      start:
+        hour: XI
+        minutes: XL
+      end:
+        hour: XIII
+        minutes: X
+    weeks: [III, V, VII, IX, XI, XIII, XV, XVII]
+  place:
+    address: |
+      Кронверкский пр., д.49, лит.А
+    room: |
+      2306/1 (БЫВШ. 304) АУД.
+    name: |
+      ИНФОРМАТИКА(ЛАБ)
+    week: |
+      чётная неделя
+    teacher: |
+      Белозубов \Александр\ Владимирович
+    kind: |
+      Очно-дистанционный
+  doublet2:
+    time:
+      start:
+        hour: XI
+        minutes: XL
+      end:
+        hour: XIII
+        minutes: X
+    weeks: [III, V, VII, IX, XI, XIII, XV, XVII]
+    place:
+      address: |
+        Кронверкский пр., д.49, лит.А
+      room: |
+        2306/1 (БЫВШ. 304) АУД.
+    name: |
+      ОСНОВЫ ПРОФЕССИОНАЛЬНОЙ ДЕЯТЕЛЬНОСТИ(ЛАБ)
+    week: |
+      нечётная неделя
+    teacher: |
+      Ткешелашвили Нино Мерабиевна
+    kind: |
+      Очно-дистанционный
+  doublet3:
+   time:
+     start:
+       hour: XIII
+       minutes: XXX
+     end:
+       hour: XV
+       minutes: I
+   weeks: [II, IV, VI, VIII, X, XII, XIV, XVI]
+   place:
+     address: |
+       Кронверкский пр., д.49, лит.А
+     room: |
+       2306/1 (БЫВШ. 304) АУД.
+   name: |
+     ИНФОРМАТИКА(ЛАБ)
+   week: |
+     чётная неделя
+   teacher: |
+     Белозубов Александр Владимирович
+   form: |
+     Очно-дистанционный
+  doublet4:
+    time:
+      start:
+        hour: XIII
+        minutes: XXX
+      end:
+        hour: XV
+        minutes: I
+    weeks: [III, V, VII, IX, XI, XIII, XV, XVII]
+    place:
+      address: |
+        Кронверкский пр., д.49, лит.А
+      room: |
+        2306/1 (БЫВШ. 304) АУД.
+    name: |
+      ОСНОВЫ ПРОФЕССИОНАЛЬНОЙ ДЕЯТЕЛЬНОСТИ(ЛАБ)
+    week: |
+      нечётная неделя
+    teacher: |
+      Ткешелашвили Нино Мерабиевна
+    kind: |
+      Очно-дистанционный
