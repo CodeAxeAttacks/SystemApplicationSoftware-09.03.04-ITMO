@@ -1,1 +1,0 @@
-# Все работы за курс: https://drive.google.com/drive/folders/1jKzL7Wl2twRaCHZVJ8ckVGfbU6PaBncv?usp=sharing

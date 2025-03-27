@@ -1,3 +1,0 @@
-/Users/daniilbatmanov/CLionProjects/goblins/cmake-build-debug/CMakeFiles/goblins.dir
-/Users/daniilbatmanov/CLionProjects/goblins/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/daniilbatmanov/CLionProjects/goblins/cmake-build-debug/CMakeFiles/rebuild_cache.dir
