@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://example.org/dota.owl#"
+     xml:base="http://example.org/dota.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:protege="http://protege.stanford.edu/">
+
+    <!-- Определение онтологии -->
+    <owl:Ontology rdf:about="http://example.org/dota.owl">
+        <rdfs:label>Dota 2 Heroes Ontology</rdfs:label>
+    </owl:Ontology>
+
+    <!-- Классы -->
+    <owl:Class rdf:about="#Hero">
+        <rdfs:label>Hero</rdfs:label>
+        <rdfs:comment>A class representing all Dota 2 heroes.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Role">
+        <rdfs:label>Role</rdfs:label>
+        <rdfs:comment>A class representing the roles of heroes.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Attribute">
+        <rdfs:label>Attribute</rdfs:label>
+        <rdfs:comment>A class representing the primary attributes of heroes.</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="#Ability">
+        <rdfs:label>Ability</rdfs:label>
+        <rdfs:comment>A class representing hero abilities.</rdfs:comment>
+    </owl:Class>
+
+    <!-- Свойства -->
+    <owl:ObjectProperty rdf:about="#hasRole">
+        <rdfs:domain rdf:resource="#Hero"/>
+        <rdfs:range rdf:resource="#Role"/>
+        <rdfs:label>hasRole</rdfs:label>
+        <rdfs:comment>Relates a hero to their primary role.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasAttribute">
+        <rdfs:domain rdf:resource="#Hero"/>
+        <rdfs:range rdf:resource="#Attribute"/>
+        <rdfs:label>hasAttribute</rdfs:label>
+        <rdfs:comment>Relates a hero to their primary attribute.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <owl:ObjectProperty rdf:about="#hasAbility">
+        <rdfs:domain rdf:resource="#Hero"/>
+        <rdfs:range rdf:resource="#Ability"/>
+        <rdfs:label>hasAbility</rdfs:label>
+        <rdfs:comment>Relates a hero to their abilities.</rdfs:comment>
+    </owl:ObjectProperty>
+
+    <!-- Экземпляры ролей -->
+    <owl:NamedIndividual rdf:about="#carry">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Carry</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#support">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Support</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#disabler">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Disabler</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#nuker">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Nuker</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#initiator">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Initiator</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#durable">
+        <rdf:type rdf:resource="#Role"/>
+        <rdfs:label>Durable</rdfs:label>
+    </owl:NamedIndividual>
+
+    <!-- Экземпляры атрибутов -->
+    <owl:NamedIndividual rdf:about="#strength">
+        <rdf:type rdf:resource="#Attribute"/>
+        <rdfs:label>Strength</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#agility">
+        <rdf:type rdf:resource="#Attribute"/>
+        <rdfs:label>Agility</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#intelligence">
+        <rdf:type rdf:resource="#Attribute"/>
+        <rdfs:label>Intelligence</rdfs:label>
+    </owl:NamedIndividual>
+
+    <!-- Экземпляры способностей -->
+    <owl:NamedIndividual rdf:about="#mana_void">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Mana Void</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#berserkers_call">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Berserker's Call</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#freezing_field">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Freezing Field</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#rot">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Rot</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#sun_strike">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Sun Strike</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#god_strength">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>God Strength</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#focus_fire">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Focus Fire</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#laguna_blade">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Laguna Blade</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#echo_slam">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Echo Slam</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#finger_of_death">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Finger of Death</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#haunt">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Haunt</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#chronosphere">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Chronosphere</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#spell_steal">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Spell Steal</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#song_of_the_siren">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Song of the Siren</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#flaming_lasso">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Flaming Lasso</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#marksmanship">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Marksmanship</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#omnislash">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Omnislash</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#thunder_gods_wrath">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Thunder God's Wrath</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#shadow_dance">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Shadow Dance</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#chain_frost">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Chain Frost</rdfs:label>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#avalanche">
+        <rdf:type rdf:resource="#Ability"/>
+        <rdfs:label>Avalanche</rdfs:label>
+    </owl:NamedIndividual>
+
+    <!-- Экземпляры героев -->
+    <owl:NamedIndividual rdf:about="#antimage">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Anti-Mage</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#mana_void"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#axe">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Axe</rdfs:label>
+        <hasRole rdf:resource="#durable"/>
+        <hasAttribute rdf:resource="#strength"/>
+        <hasAbility rdf:resource="#berserkers_call"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#crystal_maiden">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Crystal Maiden</rdfs:label>
+        <hasRole rdf:resource="#support"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#freezing_field"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#pudge">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Pudge</rdfs:label>
+        <hasRole rdf:resource="#durable"/>
+        <hasAttribute rdf:resource="#strength"/>
+        <hasAbility rdf:resource="#rot"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#invoker">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Invoker</rdfs:label>
+        <hasRole rdf:resource="#nuker"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#sun_strike"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#sven">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Sven</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#strength"/>
+        <hasAbility rdf:resource="#god_strength"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#windranger">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Windranger</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#focus_fire"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#lina">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Lina</rdfs:label>
+        <hasRole rdf:resource="#nuker"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#laguna_blade"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#earthshaker">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Earthshaker</rdfs:label>
+        <hasRole rdf:resource="#initiator"/>
+        <hasAttribute rdf:resource="#strength"/>
+        <hasAbility rdf:resource="#echo_slam"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#lion">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Lion</rdfs:label>
+        <hasRole rdf:resource="#disabler"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#finger_of_death"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#spectre">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Spectre</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#haunt"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#faceless_void">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Faceless Void</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#chronosphere"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#rubick">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Rubick</rdfs:label>
+        <hasRole rdf:resource="#support"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#spell_steal"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#naga_siren">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Naga Siren</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#song_of_the_siren"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#batrider">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Batrider</rdfs:label>
+        <hasRole rdf:resource="#initiator"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#flaming_lasso"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#drow_ranger">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Drow Ranger</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#marksmanship"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#juggernaut">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Juggernaut</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#omnislash"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#zeus">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Zeus</rdfs:label>
+        <hasRole rdf:resource="#nuker"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#thunder_gods_wrath"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#slark">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Slark</rdfs:label>
+        <hasRole rdf:resource="#carry"/>
+        <hasAttribute rdf:resource="#agility"/>
+        <hasAbility rdf:resource="#shadow_dance"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#lich">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Lich</rdfs:label>
+        <hasRole rdf:resource="#support"/>
+        <hasAttribute rdf:resource="#intelligence"/>
+        <hasAbility rdf:resource="#chain_frost"/>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="#tiny">
+        <rdf:type rdf:resource="#Hero"/>
+        <rdfs:label>Tiny</rdfs:label>
+        <hasRole rdf:resource="#initiator"/>
+        <hasAttribute rdf:resource="#strength"/>
+        <hasAbility rdf:resource="#avalanche"/>
+    </owl:NamedIndividual>
+</rdf:RDF>

@@ -1,0 +1,17 @@
+total 2491288
+drwxr-xr-x@ 16 daniilbatmanov  staff         512 14 дек 16:32 .
+drwxr-xr-x@ 37 daniilbatmanov  staff        1184 13 дек 22:03 ..
+drwxr-xr-x@  7 daniilbatmanov  staff         224 14 дек 16:31 .idea
+-rw-r--r--@  1 daniilbatmanov  staff         116 14 дек 00:42 CMakeLists.txt
+-rw-r--r--@  1 daniilbatmanov  staff       12600 14 дек 15:06 README.md
+drwxr-xr-x@ 11 daniilbatmanov  staff         352 14 дек 15:20 cmake-build-debug
+-rw-r--r--@  1 daniilbatmanov  staff         464 14 дек 16:32 danell-history
+-rwxr-xr-x@  1 daniilbatmanov  staff       94536 14 дек 00:45 dedup
+-rw-r--r--@  1 daniilbatmanov  staff        1364 14 дек 15:49 dedup.cpp
+-rw-r--r--@  1 daniilbatmanov  staff   209715200 14 дек 14:25 generated_file.bin
+-rw-r--r--@  1 daniilbatmanov  staff  1048576000 14 дек 15:35 generated_file.cpp
+-rwxr-xr-x@  1 daniilbatmanov  staff       60344 14 дек 00:50 io-thpt-read
+-rw-r--r--@  1 daniilbatmanov  staff        2166 14 дек 15:49 io-thpt-read.cpp
+-rw-r--r--@  1 daniilbatmanov  staff           0 14 дек 16:32 ls.txt
+-rwxr-xr-x@  1 daniilbatmanov  staff      137864 14 дек 15:23 main
+-rw-r--r--@  1 daniilbatmanov  staff        5971 14 дек 15:49 main.cpp

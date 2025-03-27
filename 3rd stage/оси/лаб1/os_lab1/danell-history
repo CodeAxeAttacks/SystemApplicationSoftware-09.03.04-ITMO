@@ -1,0 +1,50 @@
+ls
+history
+nice
+jdwqo
+ls
+history
+echo hello
+ls
+history
+l
+ls
+cd ..
+cd ..
+ls
+cd ..
+ls
+cd Desktop
+ls
+cat 123445 >> text.txt
+echo hello > text.txt
+cat text.txt
+cat < text.txt
+echo > HelloWorld >> text.txt
+ls
+cat < text.txt
+echo wworld >> text.txt
+cat text.txt
+ls
+./dedup 10000000 100
+./io-thpt-read generated_file.cpp 1000 100
+ls
+history
+./dedup 10000000 100
+./io-thpt-read generated_file.cpp 1000 100
+./dedup 10000000 100
+./dedup 10000000 100
+history
+ls -al > ls.txt
+cat ls.txt
+head ls.txt
+history
+./dedup 1000000 10
+./dedup 1000000 10
+./dedup 1000000 10
+./dedup 1000000 10
+./dedup 1000000 10
+./dedup 1000000 10
+./dedup 10000000 10
+./dedup 1000000 10
+./dedup 1000000 10

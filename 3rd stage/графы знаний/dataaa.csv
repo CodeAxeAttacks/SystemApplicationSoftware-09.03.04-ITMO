@@ -1,0 +1,299 @@
+name,genre,release_year,rating,metacritic_score,multiplayer,online,ratings_count,playtime,age_rating
+Grand Theft Auto V,Action,2013,4.47,92,1,0,6946,74,Mature
+The Witcher 3: Wild Hunt,Action,2015,4.65,92,0,0,6721,44,Mature
+Portal 2,Shooter,2011,4.6,95,1,1,5764,11,Everyone 10+
+Counter-Strike: Global Offensive,Shooter,2012,3.56,81,1,1,3519,64,Mature
+Tomb Raider (2013),Action,2013,4.06,86,1,0,3929,10,Mature
+Portal,Action,2007,4.5,90,0,0,4767,4,Teen
+Left 4 Dead 2,Action,2009,4.09,89,1,1,3290,9,Mature
+The Elder Scrolls V: Skyrim,Action,2011,4.43,94,0,0,4678,46,Mature
+Red Dead Redemption 2,Action,2018,4.59,96,1,1,5102,21,Mature
+BioShock Infinite,Action,2013,4.38,94,0,0,4049,12,Mature
+Borderlands 2,Action,2012,4.02,89,1,1,3209,10,Mature
+Life is Strange,Adventure,2015,4.11,83,0,0,3648,6,Mature
+Half-Life 2,Action,2004,4.49,96,1,0,3881,7,Mature
+BioShock,Action,2007,4.36,96,0,0,3256,3,Mature
+Destiny 2,Action,2017,3.53,82,1,1,2617,5,Teen
+God of War (2018),Action,2018,4.56,94,0,0,4822,14,Mature
+Fallout 4,Action,2015,3.81,84,0,0,3301,39,Mature
+Limbo,Action,2010,4.14,88,0,0,3281,3,Teen
+PAYDAY 2,Action,2013,3.52,79,1,1,2172,9,Adults Only
+Team Fortress 2,Action,2007,3.67,92,1,1,2873,8,Mature
+DOOM (2016),Action,2016,4.38,85,1,0,3501,10,Mature
+Cyberpunk 2077,Action,2020,4.19,73,0,0,2713,28,Mature
+Terraria,Action,2011,4.06,81,1,1,2376,15,Teen
+Grand Theft Auto IV,Action,2008,4.26,95,1,0,2978,10,Mature
+Horizon Zero Dawn,Action,2017,4.28,89,0,0,3668,11,Teen
+Rocket League,Sports,2015,3.93,86,1,1,2798,21,Everyone
+Metro 2033,Action,2010,3.94,79,0,0,2198,2,Mature
+Metal Gear Solid V: The Phantom Pain,Action,2015,4.16,91,1,0,2475,23,Mature
+Batman: Arkham Knight,Action,2015,4.24,81,0,0,2587,20,Mature
+The Witcher 2: Assassins of Kings Enhanced Edition,RPG,2012,4.16,88,0,1,2118,7,Mature
+Apex Legends,Action,2019,3.64,80,1,1,2351,5,Teen
+Grand Theft Auto: San Andreas,Action,2004,4.51,93,1,0,3796,2,Mature
+The Witcher: Enhanced Edition Director's Cut,Action,2008,4.06,86,0,0,1995,5,Mature
+The Walking Dead: Season 1,Action,2012,4.36,92,0,0,2405,8,Mature
+Middle-earth: Shadow of Mordor,Action,2014,3.9,85,0,0,2469,13,Mature
+Half-Life 2: Episode One,Action,2006,4.37,87,0,0,1989,4,Mature
+Hollow Knight,Action,2017,4.41,88,0,0,2540,6,Everyone 10+
+Half-Life 2: Episode Two,Action,2007,4.45,90,1,0,1946,5,Mature
+Half-Life,Action,1998,4.37,96,1,0,2312,3,Mature
+Dark Souls III,Action,2016,4.4,89,1,0,2643,29,Mature
+Hitman,Action,2016,3.92,83,0,0,1984,7,Adults Only
+Mirror's Edge,Action,2008,4.07,81,0,0,2305,3,Teen
+Outlast,Action,2013,3.73,80,0,0,1771,3,Mature
+Deus Ex: Mankind Divided,Action,2016,3.96,83,0,0,1975,7,Mature
+Stardew Valley,RPG,2016,4.4,89,1,0,2335,12,Everyone 10+
+Far Cry 3,Action,2012,4.25,88,1,1,2848,16,Mature
+Amnesia: The Dark Descent,Action,2010,3.65,85,0,0,1203,2,Mature
+Spec Ops: The Line,Action,2012,4.09,76,1,0,1895,5,Mature
+Alan Wake,Action,2010,4.1,83,0,0,2201,5,Teen
+Marvel's Spider-Man,Action,2018,4.45,87,0,0,3531,6,Teen
+Wolfenstein: The New Order,Action,2014,4.18,81,1,0,2426,12,Mature
+Saints Row: The Third,Action,2011,3.94,84,1,1,2004,14,Mature
+Detroit: Become Human,Action,2018,4.32,79,0,0,3129,10,Mature
+Prey,Action,2017,4.28,80,0,0,2170,10,Mature
+Borderlands,Action,2009,3.82,81,1,1,2056,10,Adults Only
+Fallout: New Vegas,Action,2010,4.44,84,0,0,2504,12,Mature
+The Elder Scrolls V: Skyrim Special Edition,Action,2016,4.45,74,0,0,1925,9,Mature
+Injustice: Gods Among Us Ultimate Edition,Action,2013,3.52,80,1,0,1392,5,Mature
+Company of Heroes 2,Strategy,2013,3.09,80,1,1,855,4,Mature
+Dishonored 2,Action,2016,4.26,86,0,0,1960,12,Mature
+Dishonored,Action,2012,4.37,91,0,0,2637,10,Mature
+Hellblade: Senua's Sacrifice,Action,2017,4.24,83,0,0,2222,6,Mature
+Sid Meier's Civilization V,Strategy,2010,4.3,90,1,0,1965,27,Everyone 10+
+For Honor,Action,2017,3.3,76,1,1,1660,8,Mature
+L.A. Noire,Action,2011,4.16,83,0,0,2017,7,Mature
+Grand Theft Auto: Vice City,Action,2002,4.45,94,1,0,2942,2,Mature
+Hitman: Absolution,Action,2012,3.75,79,1,0,1607,7,Mature
+Assassin’s Creed IV: Black Flag,Action,2013,4.14,85,1,0,2525,25,Mature
+Control,Action,2019,4.15,84,0,0,1922,6,Mature
+Dead Space (2008),Action,2008,4.38,86,0,0,2143,3,Mature
+Star Wars Jedi: Fallen Order,Action,2019,4.14,80,0,0,2160,8,Teen
+Counter-Strike: Source,Shooter,2004,3.75,88,1,0,1484,7,Mature
+Mass Effect 2,Action,2010,4.47,94,0,0,2958,21,Mature
+Just Cause 3,Action,2015,3.4,74,1,0,1541,7,Mature
+Death Stranding,Action,2019,4.33,84,0,0,2007,10,Mature
+The Last Of Us Remastered,Action,2014,4.69,95,1,0,2805,16,Mature
+Left 4 Dead,Action,2008,4.1,89,1,1,1648,5,Mature
+Metro 2033 Redux,Action,2014,4.1,88,1,1,1849,6,Mature
+Mortal Kombat X,Action,2015,3.86,76,1,1,2064,7,Mature
+BioShock 2 Remastered,Action,2016,4.0,83,1,0,981,4,Mature
+Mass Effect,Action,2007,4.39,89,0,0,2610,9,Mature
+Just Cause 2,Action,2010,3.61,84,1,0,1326,3,Mature
+Fall Guys: Ultimate Knockout,Action,2020,3.74,80,1,1,1299,6,Everyone
+NieR:Automata,Action,2017,4.38,86,0,0,2077,13,Mature
+Monster Hunter: World,Action,2018,4.01,89,1,1,1591,15,Teen
+Bloodborne,Action,2015,4.41,92,0,0,2401,12,Mature
+Hades,Action,2020,4.45,93,0,0,1911,10,Teen
+Mad Max,Action,2015,3.77,73,1,0,1702,11,Mature
+Minecraft,Action,2009,4.43,83,1,0,2902,26,Everyone 10+
+Paladins,Action,2016,3.08,78,1,1,1391,6,Teen
+Resident Evil 7: Biohazard,Action,2017,4.33,85,1,0,1881,10,Mature
+Batman: Arkham City - Game of the Year Edition,Action,2012,4.4,91,0,0,1426,9,Teen
+Cities: Skylines,Strategy,2015,4.12,85,0,0,1490,9,Everyone
+Titanfall 2,Action,2016,4.31,87,1,1,2004,5,Mature
+Middle-earth: Shadow of War,Action,2017,3.85,82,0,0,1335,13,Mature
+Brothers: A Tale of Two Sons,Action,2013,4.19,90,1,0,1608,3,Teen
+SEGA Mega Drive and Genesis Classics,Action,2010,2.99,76,1,0,566,2,Teen
+Warhammer: Vermintide 2,Action,2018,3.62,82,1,1,749,7,Mature
+Undertale,RPG,2015,4.34,92,0,0,1794,5,Everyone 10+
+Mafia II,Action,2010,4.23,77,1,0,2112,13,Mature
+Far Cry 5,Action,2018,3.72,80,1,0,2072,19,Mature
+Psychonauts,Action,2005,4.04,87,0,0,961,4,Teen
+Watch Dogs,Action,2014,3.59,77,1,0,2135,16,Mature
+Heavy Rain,Action,2010,4.11,80,0,0,2372,4,Mature
+Shadow of the Tomb Raider,Action,2018,3.91,78,0,0,1583,10,Mature
+INSIDE,Action,2016,4.39,87,0,0,2484,4,Teen
+Max Payne 3,Action,2012,4.26,87,1,0,1872,10,Mature
+Saints Row IV,Action,2013,3.82,86,1,1,1590,13,Mature
+Metro Exodus,Action,2019,4.17,81,0,0,1629,6,Mature
+Tom Clancy's Rainbow Six Siege,Action,2015,3.89,75,1,1,1483,32,Teen
+The Darkness II,Action,2012,3.7,77,1,0,1090,3,Mature
+Sekiro: Shadows Die Twice,Action,2019,4.38,90,0,0,2008,15,Mature
+Alien: Isolation,Action,2014,4.2,81,0,0,1416,4,Mature
+Firewatch,Adventure,2016,4.3,81,0,0,2402,5,Mature
+Assassin's Creed Odyssey,Action,2018,3.98,85,0,0,2017,31,Mature
+Hitman 2,Action,2018,4.03,83,1,0,1198,5,Mature
+No Man's Sky,Action,2016,3.7,75,1,1,1523,15,Teen
+Darksiders,Action,2010,3.76,83,0,0,1187,3,Mature
+Assassin's Creed II,Action,2009,4.42,89,0,0,2800,14,Mature
+War Thunder,Action,2013,3.19,81,1,0,1015,6,Teen
+Batman: Arkham Origins,Action,2013,3.94,74,1,0,1538,12,Teen
+Transistor,Action,2014,4.17,83,0,0,1456,4,Teen
+Assassin's Creed Origins,Action,2017,3.97,81,0,0,2014,29,Mature
+Disco Elysium,Adventure,2019,4.41,91,0,0,1198,6,Mature
+DOOM Eternal,Action,2020,4.37,86,1,1,1324,12,Mature
+Halo Infinite,Action,2021,3.66,84,1,1,699,2,Teen
+GRID 2,Racing,2013,3.3,80,1,0,814,3,Everyone 10+
+Layers of Fear,Adventure,2016,3.53,72,0,0,1091,3,Mature
+Among Us,Action,2018,3.85,82,1,1,1266,5,Everyone 10+
+The Wolf Among Us,Adventure,2013,4.4,82,0,0,2082,9,Mature
+Deus Ex: Human Revolution - Director's Cut,Action,2013,4.3,91,0,0,1355,6,Mature
+Far Cry 4,Shooter,2014,3.82,80,1,1,1835,18,Mature
+Resident Evil 5,Action,2009,3.82,86,1,1,1570,11,Mature
+XCOM 2,RPG,2016,4.1,88,1,0,1281,15,Teen
+Elden Ring,Action,2022,4.41,95,1,1,1255,61,Mature
+Ori and the Blind Forest: Definitive Edition,Adventure,2016,4.42,88,0,0,1657,6,Everyone
+Call of Duty: Modern Warfare 2,Shooter,2009,4.26,86,1,1,1983,22,Mature
+Saints Row 2,Action,2008,3.56,78,1,1,883,2,Mature
+Assassin’s Creed III,Action,2012,3.74,80,1,0,2090,22,Mature
+SOMA,Action,2015,4.16,84,0,0,1397,6,Mature
+Ori and the Blind Forest,Adventure,2015,4.38,88,0,0,1476,6,Everyone
+Thief,Action,2014,3.26,70,0,0,1243,5,Mature
+Watch Dogs 2,Action,2016,3.84,79,1,0,1702,17,Mature
+This War of Mine,Adventure,2014,4.06,83,0,0,1212,4,Mature
+Sid Meier’s Civilization VI,Strategy,2016,4.16,88,1,1,1372,15,Everyone 10+
+Black Desert Online,Action,2014,2.92,73,1,1,622,4,Teen
+Grand Theft Auto III,Action,2001,4.15,93,1,0,1582,1,Mature
+Call of Duty: Black Ops III,Action,2015,3.26,73,1,0,1456,16,Mature
+Red Dead Redemption,Action,2010,4.43,95,1,0,2076,7,Mature
+Wolfenstein II: The New Colossus,Action,2017,4.09,86,0,0,1709,11,Mature
+Kingdom Come: Deliverance,Action,2018,4.04,71,0,0,1375,10,Mature
+Darksiders Warmastered Edition,Action,2016,3.68,79,0,0,915,5,Mature
+"Papers, Please",Simulation,2013,4.37,85,0,0,1697,4,Mature
+Dead Island,Action,2011,3.47,74,0,0,1326,7,Mature
+Dead Cells,Action,2018,4.24,88,0,0,1677,10,Teen
+FEZ,Action,2012,4.0,91,0,0,1156,2,Everyone
+The Last Of Us,Action,2013,4.55,95,0,0,3130,15,Mature
+Divinity: Original Sin 2,RPG,2017,4.39,95,1,1,1583,22,Mature
+South Park: The Stick of Truth,Adventure,2014,4.22,84,0,0,1640,12,Mature
+Fallout Shelter,RPG,2015,3.43,63,1,0,1486,3,Teen
+Castle Crashers,Action,2008,3.89,84,1,1,1195,4,Teen
+Subnautica,Adventure,2018,4.24,83,1,1,1410,10,Everyone 10+
+Half-Life: Blue Shift,Action,2001,3.71,71,0,0,736,2,Mature
+Star Wars: Knights of the Old Republic,Action,2003,4.37,88,0,0,1424,2,Mature
+Darkest Dungeon,RPG,2016,4.18,84,0,0,1314,8,Teen
+Call of Duty: Black Ops,Action,2010,4.04,81,1,1,1780,9,Mature
+Assassin's Creed Unity,Action,2014,3.62,71,1,1,1652,15,Mature
+Resident Evil 4 (2005),Action,2005,4.41,83,0,0,1751,5,Mature
+Dragon Age: Origins,RPG,2009,4.4,91,0,0,1900,7,Mature
+Don't Starve,Indie,2013,3.85,79,1,0,1108,4,Teen
+A Plague Tale: Innocence,Action,2019,4.15,82,0,0,1445,7,Mature
+Syberia,Adventure,2002,3.93,82,0,0,780,3,Teen
+DmC: Devil May Cry,Action,2013,4.02,85,0,0,1517,6,Mature
+Quantum Break,Action,2016,3.91,66,0,0,1293,6,Mature
+Dead Space 2,Action,2011,4.37,87,1,0,1363,5,Mature
+Rayman Legends,Platformer,2013,4.16,89,1,0,1534,5,Everyone 10+
+Fallout 3,Shooter,2008,4.08,91,0,0,1880,4,Mature
+Batman: Arkham City,Action,2011,4.42,94,0,0,2081,20,Teen
+Guacamelee! Super Turbo Championship Edition,Action,2014,3.55,86,1,0,817,3,Everyone 10+
+Sleeping Dogs: Definitive Edition,Action,2014,4.15,76,1,0,1136,6,Mature
+Devil May Cry 5,Action,2019,4.25,88,1,1,1495,9,Mature
+Yakuza 0,Action,2015,4.37,85,1,1,1089,8,Mature
+Uncharted 3: Drake's Deception,Action,2011,4.37,92,0,0,1893,12,Teen
+Beyond: Two Souls,Action,2013,3.8,73,1,0,1715,4,Mature
+Torchlight II,Action,2012,3.83,88,1,1,1058,10,Teen
+Mafia III,Action,2016,3.14,62,1,0,1331,9,Mature
+Battlefield 4,Shooter,2013,3.94,81,1,1,1536,6,Mature
+SUPERHOT,Action,2016,4.19,82,1,0,1498,4,Teen
+What Remains of Edith Finch,Adventure,2017,4.38,89,0,0,1959,3,Teen
+Homefront,Shooter,2011,2.95,70,1,0,795,2,Mature
+Call of Duty: WWII,Action,2017,3.53,77,1,1,1130,6,Mature
+Days Gone,Action,2019,3.95,74,1,0,1307,9,Mature
+Sniper Elite V2,Action,2012,3.4,66,1,1,832,4,Mature
+Grim Fandango Remastered,Adventure,2015,4.0,84,0,0,898,5,Teen
+Resident Evil 2 (1998),Action,1998,4.31,90,0,0,901,13,Mature
+Hotline Miami 2: Wrong Number,Action,2015,4.28,72,0,0,1285,7,Mature
+FTL: Faster Than Light,Strategy,2012,4.25,84,0,0,943,6,Everyone 10+
+Dragon Age: Inquisition,Action,2014,3.8,86,1,1,1516,5,Mature
+Resident Evil 6,Action,2012,3.42,67,1,1,1226,8,Mature
+The Sims 4,Strategy,2014,3.68,67,1,0,1096,4,Teen
+Call of Duty: Modern Warfare 3,Action,2011,3.77,85,1,1,1566,8,Mature
+Ori and the Will of the Wisps,Action,2020,4.45,91,0,0,1223,11,Everyone
+The Walking Dead: Season 2,Action,2013,4.06,80,0,0,1432,10,Mature
+Euro Truck Simulator 2,Simulation,2012,4.11,79,0,0,862,12,Everyone
+Surviving Mars,Strategy,2018,3.47,75,1,0,461,4,Everyone 10+
+Forza Horizon 4,Racing,2018,4.37,90,1,1,1596,13,Everyone
+POSTAL 2,Action,2003,3.91,59,1,0,1027,4,Adults Only
+Deus Ex: Human Revolution,Action,2011,4.36,89,0,0,1520,17,Mature
+Sleeping Dogs,Action,2012,4.13,81,1,0,1297,14,Mature
+Ratchet & Clank,Action,2016,4.05,85,0,0,1432,18,Everyone 10+
+A Story About My Uncle,Adventure,2014,3.15,73,0,0,635,3,Everyone 10+
+Syberia 2,Adventure,2004,3.88,80,0,0,562,5,Teen
+To the Moon,Adventure,2011,4.29,81,0,0,1100,4,Everyone
+Tom Clancy’s The Division,Action,2016,3.7,80,1,1,1323,27,Mature
+Bayonetta,Action,2009,4.31,90,0,0,1126,5,Mature
+Dark Souls II: Scholar of the First Sin,Action,2015,4.15,79,1,0,1174,24,Mature
+PAYDAY The Heist,Action,2011,3.34,76,1,1,769,4,Adults Only
+Borderlands Game of the Year Enhanced,Action,2019,3.79,78,1,1,1022,3,Mature
+Call of Duty: Black Ops II,Action,2012,3.95,74,1,1,1374,5,Mature
+"Warhammer 40,000: Space Marine",Action,2011,3.47,74,1,1,717,5,Adults Only
+Borderlands 3,Action,2019,3.89,83,1,1,903,11,Mature
+Metal Gear Rising: Revengeance,Action,2013,4.24,83,0,0,1201,6,Mature
+Celeste,Indie,2018,4.39,91,0,0,1625,6,Everyone 10+
+Overcooked,Simulation,2016,4.07,81,1,0,1322,4,Everyone
+Batman: Arkham Asylum,Action,2009,4.41,91,0,0,2237,13,Teen
+Frostpunk,Strategy,2018,4.17,85,0,0,994,6,Mature
+STAR WARS Battlefront II,Action,2017,3.57,74,1,1,1323,4,Teen
+Assassin's Creed Syndicate,Action,2015,3.66,74,1,0,1469,23,Mature
+Dead by Daylight,Action,2016,3.49,72,1,1,952,9,Mature
+Until Dawn,Action,2015,4.1,79,0,0,1688,14,Mature
+Mafia: The City of Lost Heaven,Action,2002,4.35,88,0,0,1267,2,Mature
+FINAL FANTASY XV,RPG,2016,3.87,82,0,0,1398,5,Teen
+Deus Ex: Game of the Year Edition,Action,2000,4.12,90,1,0,563,1,Mature
+Rust,Action,2018,3.37,66,1,1,832,14,Mature
+Dark Souls: Prepare To Die Edition,Action,2012,4.36,85,1,0,1232,14,Mature
+Human: Fall Flat,Action,2016,3.83,70,1,0,1006,5,Everyone
+LEGO The Lord of the Rings,Action,2012,3.53,80,1,0,602,2,Everyone 10+
+S.T.A.L.K.E.R.: Shadow of Chernobyl,Action,2007,4.29,82,1,0,1282,3,Adults Only
+A Way Out,Action,2018,4.12,78,1,1,1536,6,Mature
+The Long Dark,Action,2014,3.91,76,1,0,844,5,Teen
+Oddworld: Abe's Oddysee,Action,1997,3.53,85,1,0,549,3,Teen
+The Binding of Isaac: Rebirth,Action,2014,4.33,86,1,0,1124,30,Mature
+Max Payne,Action,2001,4.46,89,0,0,1935,2,Mature
+Mortal Kombat 11,Action,2019,3.96,82,1,1,1100,9,Mature
+Divinity: Original Sin - Enhanced Edition,RPG,2015,4.26,94,1,0,992,8,Mature
+Ryse: Son of Rome,Action,2013,3.59,61,1,0,946,6,Mature
+Hacknet,Simulation,2015,3.18,82,1,0,482,3,Mature
+Star Wars: Knights of the Old Republic II – The Sith Lords,Adventure,2004,4.37,85,0,0,896,4,Teen
+Prison Architect,Strategy,2015,3.73,83,0,0,575,5,Mature
+The Evil Within,Action,2014,3.97,68,0,0,1128,6,Mature
+Sea of Thieves,Action,2018,3.68,68,1,1,1034,12,Teen
+Sid Meier's Civilization III Complete,Strategy,2001,3.69,90,1,0,460,1,Everyone
+Jotun: Valhalla Edition,Action,2015,3.06,79,0,0,504,3,Teen
+Beholder,Adventure,2016,3.81,75,0,0,694,4,Teen
+Fallout 2,RPG,1998,4.35,86,0,0,1110,2,Mature
+Sanctum 2,Action,2013,2.97,77,1,1,396,3,Teen
+Murdered: Soul Suspect,Action,2014,3.47,59,0,0,959,5,Mature
+Braid,Action,2008,4.16,92,0,0,977,2,Everyone 10+
+Resident Evil,Action,1996,4.18,91,0,0,776,4,Mature
+Neverwinter,Action,2013,2.92,74,1,0,631,6,Teen
+Assassin's Creed,Action,2007,3.91,80,0,0,1913,5,Mature
+Fallout 3: Game of the Year Edition,Action,2009,4.13,91,0,0,918,4,Mature
+F.E.A.R.,Action,2005,4.26,88,1,0,1004,2,Adults Only
+Darksiders II,Action,2012,3.74,83,0,0,962,5,Mature
+Enter the Gungeon,Action,2016,4.07,84,1,0,1035,6,Teen
+Lords of the Fallen (2014),Action,2014,2.92,73,1,1,877,4,Mature
+Resident Evil 2,Action,2019,4.5,91,0,0,2144,11,Mature
+Mark of the Ninja,Action,2012,3.99,91,0,0,763,5,Mature
+Serious Sam 3: BFE,Action,2011,3.45,72,1,1,761,4,Mature
+Resident Evil Revelations 2,Action,2015,3.68,72,1,1,741,4,Mature
+Game of Thrones - A Telltale Games Series,Action,2014,3.22,66,0,0,964,7,Adults Only
+Far Cry 3: Blood Dragon,Shooter,2013,4.0,81,0,0,1078,4,Mature
+The Elder Scrolls Online: Tamriel Unlimited,Action,2015,3.48,77,1,0,755,16,Mature
+Stray,Action,2022,4.16,82,0,0,1079,5,Everyone 10+
+Jet Set Radio,Action,2000,3.41,94,0,0,504,1,Teen
+Assassin’s Creed Brotherhood,Action,2010,4.27,88,1,0,1644,15,Mature
+BattleBlock Theater,Action,2013,3.84,85,1,1,891,5,Teen
+Orwell: Keeping an Eye On You,Adventure,2016,3.26,77,0,0,547,3,Teen
+Remember Me,Action,2013,3.67,65,0,0,931,5,Mature
+Child of Light,RPG,2014,3.85,77,1,0,951,3,Everyone 10+
+Destiny,Action,2014,3.69,76,1,0,1050,24,Teen
+ABZU,Adventure,2016,3.92,83,0,0,1077,3,Everyone
+Far Cry 2,Action,2008,3.45,85,1,0,997,2,Mature
+Drawful 2,Strategy,2016,3.23,74,1,0,308,1,Teen
+Oxenfree,Adventure,2016,3.9,80,0,0,906,4,Teen
+Resident Evil 3,Action,2020,4.04,80,1,1,973,8,Mature
+Dragon's Dogma: Dark Arisen,Action,2013,3.92,81,1,0,656,7,Mature
+It Takes Two,Action,2021,4.48,88,1,1,1467,10,Everyone 10+
+PlanetSide 2,Action,2012,2.97,84,1,1,519,3,Teen
+Sonic Mania,Action,2017,3.86,85,1,0,849,3,Everyone
+Deep Rock Galactic,Action,2020,4.1,84,1,1,638,7,Teen
+Monaco: What's Yours Is Mine,Action,2013,3.0,83,1,1,363,3,Teen
+STAR WARS Battlefront,Action,2015,3.29,73,1,1,1124,3,Teen
+The Flame in the Flood,Action,2016,2.89,73,1,0,396,2,Teen
+Lara Croft and the Guardian of Light,Action,2010,3.43,82,1,1,497,2,Teen
+Gwent: The Witcher Card Game,RPG,2018,3.59,80,1,1,1009,2,Teen
+The Elder Scrolls III: Morrowind,RPG,2002,4.37,89,0,0,1003,2,Teen
+Dying Light,Action,2015,4.09,74,0,0,1336,22,Mature

@@ -1,0 +1,20 @@
+.form-container {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+    width: 100vw
+}
+
+.base-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background: #282828;
+    border-radius: 10px;
+}
+
+.redirect-link {
+    cursor: pointer;
+    text-decoration: underline;
+}

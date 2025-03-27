@@ -1,0 +1,3 @@
+/Users/daniilbatmanov/CLionProjects/os_lab1/cmake-build-debug/CMakeFiles/os_lab1.dir
+/Users/daniilbatmanov/CLionProjects/os_lab1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/daniilbatmanov/CLionProjects/os_lab1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns="http://www.example.org/ontologies/videogames#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+   xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#detroit_become_human">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Detroit: Become Human</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.32</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Na7a7d298d54d4c3d8c7f1d65d0d34ea6">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N1801cae6c2f3402abcd7b4b005b8174c"/>
+    <rdf:rest rdf:nodeID="Nd6283b1d4196452d8cb64cd1c0372a9a"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#alan_wake">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Alan Wake</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.1</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#injustice_gods_among_us_ultimate_edition">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Injustice: Gods Among Us Ultimate Edition</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Arcade"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Fighting"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.52</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N33bef708248546cba32f0e3a6e138b1e">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#the_walking_dead">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>The Walking Dead: Season 1</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.36</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#garrys_mod">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Garry's Mod</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Simulation"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Casual"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</release_Year>
+    <age_rating>Rating Pending</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.79</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">None</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#rise_of_the_tomb_raider">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Rise of the Tomb Raider</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.04</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#half_life_2_episode_one">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Half-Life 2: Episode One</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.37</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#rocket_league">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Rocket League</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Sports"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Racing"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Everyone</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.93</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#warframe">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Warframe</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Massively_Multiplayer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_Series_S/X"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.42</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#hotline_miami">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Hotline Miami</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Arcade"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.38</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N7f213cb0b0794911a577926b160d3055">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://www.example.org/ontologies/videogames#is_multiplayer"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+    <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#portal_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Portal 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Puzzle"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</release_Year>
+    <age_rating>Everyone 10+</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.6</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#grand_theft_auto_iv">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Grand Theft Auto IV</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.26</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#fallout_4">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Fallout 4</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">39</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.81</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#tomb_raider">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Tomb Raider (2013)</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Fighting"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.06</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#red_dead_redemption_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Red Dead Redemption 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.59</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_Flashback">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari Flashback</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#left_4_dead_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Left 4 Dead 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.09</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#grand_theft_auto_v">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Grand Theft Auto V</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_Series_S/X"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.47</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#dont_starve_together">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Don't Starve Together</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Simulation"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.77</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#dota_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Dota 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Massively_Multiplayer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.07</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#grand_theft_auto_vice_city">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Grand Theft Auto: Vice City</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_2"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2002</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.45</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#bioshock_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>BioShock 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.07</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#metro_last_light_redux">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Metro: Last Light Redux</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.13</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#SEGA_Saturn">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>SEGA Saturn</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#far_cry_3">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Far Cry 3</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.25</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5068ebea524f41f8bf601016a2b9478e">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#bioshock">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>BioShock</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.36</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#portal">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Portal</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Puzzle"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.5</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#playerunknowns_battlegrounds">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>PlayerUnknown’s Battlegrounds</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Massively_Multiplayer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.27</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#hellblade_senuas_sacrifice">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Hellblade: Senua's Sacrifice</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.24</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Nintendo_DS">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Nintendo DS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#half_life_2_deathmatch">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Half-Life 2: Deathmatch</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.28</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">None</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#metal_gear_solid_v_the_phantom_pain">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Metal Gear Solid V: The Phantom Pain</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.16</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#terraria">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Terraria</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Platformer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Wii_U"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_3DS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.06</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#hollow_knight">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Hollow Knight</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Platformer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Everyone 10+</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.41</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#dishonored_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Dishonored 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.26</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#the_witcher_2_assassins_of_kings_enhanced_edition">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>The Witcher 2: Assassins of Kings Enhanced Edition</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.16</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#grand_theft_auto_san_andreas">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Grand Theft Auto: San Andreas</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_2"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.51</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#super_meat_boy">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Super Meat Boy</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Platformer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Wii_U"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Web"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.98</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#limbo">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Limbo</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Puzzle"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Platformer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.14</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#the_elder_scrolls_v_skyrim_special_edition">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
+    <rdfs:label>The Elder Scrolls V: Skyrim Special Edition</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.45</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#bioshock_infinite">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>BioShock Infinite</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.38</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#borderlands_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Borderlands 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.02</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N0c046d78025147279f6a4570c629d727">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#la_noire">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>L.A. Noire</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.16</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne0fd7b6f62554007969d66e5ceaf45a6">
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+    <rdfs:comment></rdfs:comment>
+    <rdfs:label>singleplayerGame</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="Nec93ec685b3d43c0a795d7b7ba4d68f9"/>
+    <swrl:head rdf:nodeID="Nbcfd09b568214517a770ed3eee0732b3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#mortal_kombat_x">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Mortal Kombat X</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Fighting"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.86</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#half_life_2_episode_two">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Half-Life 2: Episode Two</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Puzzle"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.45</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#counter_strike_source">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Counter-Strike: Source</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.75</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Game_Gear">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Game Gear</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#mirrors_edge">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Mirror's Edge</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.07</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#doom">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>DOOM (2016)</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.38</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#metal_gear_solid_v_ground_zeroes">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Metal Gear Solid V: Ground Zeroes</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PlayStation_5">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>PlayStation 5</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Neo_Geo">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Neo Geo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#has_Genre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#the_elder_scrolls_v_skyrim">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>The Elder Scrolls V: Skyrim</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_Series_S/X"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">46</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.43</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#counter_strike">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Counter-Strike</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.05</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#half_life">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Half-Life</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Dreamcast"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_2"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1998</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.38</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#just_cause_3">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Just Cause 3</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.4</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">74</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#borderlands">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Borderlands</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2009</release_Year>
+    <age_rating>Adults Only</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.82</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#hitman">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Hitman</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Simulation"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Adults Only</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.92</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#horizon_zero_dawn">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Horizon Zero Dawn</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.28</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Xbox_360">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Xbox 360</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#little_nightmares">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Little Nightmares</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Platformer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.04</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#outlast">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Outlast</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.73</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#has_Platform">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#left_4_dead">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Left 4 Dead</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.1</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8c4b9ec9da224140aa45c2384dc5c54d">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000</rdf:first>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#dead_space">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Dead Space (2008)</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.38</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#age_rating">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_2600">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari 2600</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N864371dcf92b42319c9096bbfe2d2511">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#spec_ops_the_line">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Spec Ops: The Line</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.09</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#fallout_new_vegas">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Fallout: New Vegas</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.44</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#stardew_valley">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Stardew Valley</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Simulation"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PS_Vita"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Everyone 10+</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#half_life_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Half-Life 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2004</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.49</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">96</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N5183ef15ba2a4e22a6d319c6fc86ccde">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#life_is_strange_episode_1_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Life is Strange</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#iOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.11</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#mass_effect">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Mass Effect</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.39</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#SNES">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>SNES</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#the_witcher_3_wild_hunt">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>The Witcher 3: Wild Hunt</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_Series_S/X"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">44</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.65</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#half_life_deathmatch_source">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Half-Life Deathmatch: Source</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.21</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">None</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#batman_arkham_knight">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Batman: Arkham Knight</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2015</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.24</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_5200">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari 5200</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#the_last_of_us_remastered">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>The Last Of Us Remastered</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">16</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.69</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#company_of_heroes_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Company of Heroes 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Strategy"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.09</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#dark_souls_iii">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Dark Souls III</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.4</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">89</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_8-bit">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari 8-bit</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#max_players">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#death_stranding">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Death Stranding</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.33</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Arcade">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Arcade</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#payday_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>PAYDAY 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Adults Only</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.52</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#the_witcher_enhanced_edition_directors_cut">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>The Witcher: Enhanced Edition Director's Cut</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2008</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.06</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#jedi_the_fallen_order">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Star Wars Jedi: Fallen Order</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.14</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#cyberpunk_2077">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
+    <rdfs:label>Cyberpunk 2077</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_Series_S/X"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2020</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">28</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.19</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#mass_effect_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Mass Effect 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.47</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#saints_row_the_third">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Saints Row: The Third</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2011</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.95</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#dishonored">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Dishonored</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.37</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">91</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#deus_ex_mankind_divided">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Deus Ex: Mankind Divided</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.96</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">83</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#uncharted_4_a_thiefs_end">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Uncharted 4: A Thief’s End</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.49</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">93</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Ne786e78af0034f1bbb236ea38e2f2067">
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:first rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue"/>
+    <rdf:rest rdf:nodeID="N8c4b9ec9da224140aa45c2384dc5c54d"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PSP">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>PSP</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Racing">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Racing</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Jaguar">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Jaguar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#prey">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Prey</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.28</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#apex_legends">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Apex Legends</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.64</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#counter_strike_global_offensive">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Counter-Strike: Global Offensive</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">64</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.56</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#team_fortress_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Team Fortress 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2007</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.67</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">92</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_Lynx">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari Lynx</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Nintendo_Switch">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Nintendo Switch</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Android">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#MobilePlatform"/>
+    <rdfs:label>Android</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#destiny_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Destiny 2</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Web"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_Series_S/X"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.53</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">82</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Apple_II">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Apple II</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Commodore_/_Amiga">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Commodore / Amiga</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#assassins_creed_iv_black_flag">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Assassin’s Creed IV: Black Flag</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Wii_U"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.14</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#CoopGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Xbox">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Xbox</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#civilization_v">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Sid Meier's Civilization V</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Strategy"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Everyone 10+</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.3</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Necbe9e1abc804aebb596145d2a7698b5">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N5183ef15ba2a4e22a6d319c6fc86ccde"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#metro_redux">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Metro 2033 Redux</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.1</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">88</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#control">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Control</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_Series_S/X"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2019</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.15</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">84</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_XEGS">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari XEGS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#SEGA_Master_System">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>SEGA Master System</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#borderlands_the_pre_sequel">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Borderlands: The Pre-Sequel</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Android"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.56</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#marvels_spider_man">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Marvel's Spider-Man</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_5"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</release_Year>
+    <age_rating>Teen</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.45</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">87</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Massively_Multiplayer">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Massively Multiplayer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#path_of_exile">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>Path of Exile</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Massively_Multiplayer"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2013</release_Year>
+    <age_rating>Not rated</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.65</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">86</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_7800">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari 7800</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#macOS">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>macOS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Wii">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Wii</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Card">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Card</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#hitman_absolution">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Hitman: Absolution</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2012</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.75</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N1801cae6c2f3402abcd7b4b005b8174c">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+    <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+    <swrl:arguments rdf:nodeID="Ne786e78af0034f1bbb236ea38e2f2067"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PlayStation_4">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>PlayStation 4</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#OnlineGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#MultiplayerGame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#wolfenstein_the_new_order">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Wolfenstein: The New Order</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.18</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">81</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#bioshock_remastered">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#SinglePlayerGame"/>
+    <rdfs:label>BioShock Remastered</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Nintendo_Switch"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2016</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.24</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">None</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Xbox_One">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Xbox One</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#3DO">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>3DO</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Action">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Action</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PopularGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Game_Boy">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Game Boy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N9e3d75f0bc4f46e0a153732ae3c793e4">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N8089a63f984d486a8e338004585709bc"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#metro_2033">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Metro 2033</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Shooter"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.94</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">79</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#half_life_2_lost_coast">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#CoopGame"/>
+    <rdfs:label>Half-Life 2: Lost Coast</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2005</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.44</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">None</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#god_of_war_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>God of War (2018)</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2018</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">14</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.56</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Atari_ST">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Atari ST</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nd6283b1d4196452d8cb64cd1c0372a9a">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Nc56ea5720ef242c6a47bb8d5d2e02e8d"/>
+    <rdf:rest rdf:nodeID="Necbe9e1abc804aebb596145d2a7698b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nf16a0f2ef10b43e7bffcdad8889fa572">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+    <swrl:classPredicate rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nfd964cb2aeb14439b2de67eed5d71f49">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N0c046d78025147279f6a4570c629d727"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#shadow_of_mordor">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Middle-earth: Shadow of Mordor</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#RPG"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_360"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_3"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2014</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.9</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#online">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PlayStation">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>PlayStation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Linux">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Linux</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8089a63f984d486a8e338004585709bc">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://www.example.org/ontologies/videogames#is_multiplayer"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+    <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</swrl:argument2>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#avg_play_time">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N94d8859764cb4969bb4658fc016f3509">
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+    <rdfs:comment></rdfs:comment>
+    <rdfs:label>MultiplayerGame rule</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="N960c0d8036af4b9196bff7d5b3a52f0d"/>
+    <swrl:head rdf:nodeID="Nfd964cb2aeb14439b2de67eed5d71f49"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Naa8ddb716b44426db50a746e7881e642">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N33bef708248546cba32f0e3a6e138b1e"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N49c719aad8444e2cb076031feb4e400e">
+    <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+    <rdfs:comment>Rule for correct populer or nonpopuler game</rdfs:comment>
+    <rdfs:label>Popular game rule</rdfs:label>
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+    <swrl:body rdf:nodeID="Na7a7d298d54d4c3d8c7f1d65d0d34ea6"/>
+    <swrl:head rdf:nodeID="N8a03fdf84c8f47cfb8e56485a2aadff8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#for_honor">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#OnlineGame"/>
+    <rdfs:label>For Honor</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Massively_Multiplayer"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Xbox_One"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PlayStation_4"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2017</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.3</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">76</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Strategy">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Strategy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#amnesia_the_dark_descent">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PopularGame"/>
+    <rdfs:label>Amnesia: The Dark Descent</rdfs:label>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Action"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Adventure"/>
+    <has_Genre rdf:resource="http://www.example.org/ontologies/videogames#Indie"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#Linux"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#macOS"/>
+    <has_Platform rdf:resource="http://www.example.org/ontologies/videogames#PC"/>
+    <release_Year rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2010</release_Year>
+    <age_rating>Mature</age_rating>
+    <avg_play_time rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</avg_play_time>
+    <rating rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.65</rating>
+    <metacritic_score rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</metacritic_score>
+    <is_multiplayer rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</is_multiplayer>
+    <online rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</online>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Fighting">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Fighting</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Nintendo_DSi">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Nintendo DSi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N8a03fdf84c8f47cfb8e56485a2aadff8">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N864371dcf92b42319c9096bbfe2d2511"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Game_Boy_Advance">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Game Boy Advance</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Casual">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Casual</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Platform">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nec93ec685b3d43c0a795d7b7ba4d68f9">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="Nf16a0f2ef10b43e7bffcdad8889fa572"/>
+    <rdf:rest rdf:nodeID="N9e3d75f0bc4f46e0a153732ae3c793e4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Genesis">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Genesis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nbcfd09b568214517a770ed3eee0732b3">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N5068ebea524f41f8bf601016a2b9478e"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Nintendo_64">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Nintendo 64</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Dreamcast">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Dreamcast</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PCPlatform">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#is_multiplayer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Indie">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Indie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#SEGA_CD">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>SEGA CD</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Console">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Nintendo_3DS">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Nintendo 3DS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="N960c0d8036af4b9196bff7d5b3a52f0d">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+    <rdf:first rdf:nodeID="N7f213cb0b0794911a577926b160d3055"/>
+    <rdf:rest rdf:nodeID="Naa8ddb716b44426db50a746e7881e642"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="Nc56ea5720ef242c6a47bb8d5d2e02e8d">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+    <swrl:propertyPredicate rdf:resource="http://www.example.org/ontologies/videogames#online"/>
+    <swrl:argument1 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/x"/>
+    <swrl:argument2 rdf:resource="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#NES">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>NES</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Classic_Macintosh">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Classic Macintosh</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#SinglePlayerGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Adventure">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Adventure</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#SEGA_32X">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>SEGA 32X</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PlayStation_2">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>PlayStation 2</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PlayStation_3">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>PlayStation 3</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Educational">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Educational</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Board_Games">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Board Games</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#MobilePlatform">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#Platform"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Simulation">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Simulation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#release_Year">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedShort"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#VideoGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Puzzle">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Puzzle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PS_Vita">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>PS Vita</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Genre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#MultiplayerGame">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.example.org/ontologies/videogames#VideoGame"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#GameCube">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>GameCube</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Wii_U">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Wii U</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#iOS">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#MobilePlatform"/>
+    <rdfs:label>iOS</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Xbox_Series_S/X">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Xbox Series S/X</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/nik31/ontologies/2024/8/untitled-ontology-4/onlineValue">
+    <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Shooter">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Shooter</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Game_Boy_Color">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Console"/>
+    <rdfs:label>Game Boy Color</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Sports">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Sports</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Family">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Family</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#Platformer">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>Platformer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#RPG">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#Genre"/>
+    <rdfs:label>RPG</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames#PC">
+    <rdf:type rdf:resource="http://www.example.org/ontologies/videogames#PCPlatform"/>
+    <rdfs:label>PC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.example.org/ontologies/videogames">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+</rdf:RDF>

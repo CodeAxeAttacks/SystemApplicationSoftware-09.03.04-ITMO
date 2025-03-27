@@ -1,0 +1,12 @@
+#root {
+  max-width: 1280px;
+}
+
+.form-box-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 10px;
+  gap: 13px
+}
