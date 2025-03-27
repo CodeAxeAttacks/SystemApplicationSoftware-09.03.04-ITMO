@@ -1,0 +1,3 @@
+/Users/daniilbatmanov/CLionProjects/manager/cmake-build-debug/CMakeFiles/manager.dir
+/Users/daniilbatmanov/CLionProjects/manager/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/daniilbatmanov/CLionProjects/manager/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,3 @@
+/Users/daniilbatmanov/CLionProjects/agronom/cmake-build-debug/CMakeFiles/agronom.dir
+/Users/daniilbatmanov/CLionProjects/agronom/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/daniilbatmanov/CLionProjects/agronom/cmake-build-debug/CMakeFiles/rebuild_cache.dir

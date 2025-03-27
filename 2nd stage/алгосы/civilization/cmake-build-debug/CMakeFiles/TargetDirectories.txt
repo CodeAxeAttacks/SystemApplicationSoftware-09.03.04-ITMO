@@ -1,0 +1,3 @@
+/Users/daniilbatmanov/CLionProjects/civilization/cmake-build-debug/CMakeFiles/civilization.dir
+/Users/daniilbatmanov/CLionProjects/civilization/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/daniilbatmanov/CLionProjects/civilization/cmake-build-debug/CMakeFiles/rebuild_cache.dir
