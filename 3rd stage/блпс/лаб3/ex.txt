@@ -1,0 +1,30 @@
+@startuml DetailedDeployment
+
+rectangle "Cервер" {
+  node "JVM" {
+    [Spring Boot Application] as app
+    [JCA Container] as jca
+    
+    app --> jca : JCA API
+  }
+  
+  database "PostgreSQL" as db
+  queue "Apache Kafka" as kafka
+}
+
+cloud "Bitrix24 Cloud" {
+  [Bitrix24 REST API] as bitrix
+}
+
+jca --> bitrix : HTTP/REST\n(webhook)
+app --> db : Hibernate/JPA
+app --> kafka : Spring Kafka
+
+note top of jca
+  Bitrix24 Resource Adapter:
+  - ManagedConnectionFactory
+  - ConnectionManager
+  - XAResource (optional)
+end note
+
+@enduml

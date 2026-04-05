@@ -1,0 +1,42 @@
+DROP TABLE IF EXISTS banned_words, 
+                         comment_requests, 
+                         comments,
+purchases, 
+                         ozon_users, 
+                         products CASCADE;
+
+
+-- Заполнение тестовыми продуктами
+INSERT INTO products (content, is_deleted, seller_id) VALUES
+('lamp', false, 3),
+('phone', false, 2),
+('sofa', false, 3);
+
+-- Заполнение тестовыми покупками
+INSERT INTO purchases (is_deleted, owner_id, product_id) VALUES
+(false, 1, 3),
+(true, 1, 2),
+(false, 2, 1),
+(true, 3, 1),
+(false, 3, 2),
+(false, 3, 3);
+
+-- Заполнение тестовыми комментариями
+INSERT INTO comments (content, is_anonymous, is_deleted, author_id, product_id, is_checked) VALUES
+('the best!', false, false, 1, 2, true),
+('i hate it', true, false, 1, 3, true),
+('nice', false, true, 3, 1, true);
+
+-- Добавление запросов на проверку комментариев
+INSERT INTO comment_requests (is_deleted, comment_id, is_checked, checker_id)
+VALUES
+    (false, 1, true, 4), -- Запрос на проверку Comment 1
+    (false, 2, false, 4), -- Запрос на проверку Comment 2
+    (false, 3, false, 4);
+
+-- Добавление запрещенных слов
+INSERT INTO banned_words (word)
+VALUES
+    ('ban');
+
+UPDATE ozon_users SET role = 'ADMIN' WHERE login = 'admin';
